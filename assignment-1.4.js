@@ -1,10 +1,18 @@
+/* ============================================ 
+; Title: Hello World
+; Author: Professor Krasso
+; Date: 25 May 2020
+; Modified By: Douglas Jenkins
+; Description: Variable Declaration and Assignments. 
+;=========================================== */
+
 //List of Variable Declaration
 var firstName;
-var lastName
-var age
-var street
-var city
-var zipCode
+var lastName;
+var age;
+var street;
+var city;
+var zipCode;
 
 //List of Variable Assignments
 firstName = "Douglas";
