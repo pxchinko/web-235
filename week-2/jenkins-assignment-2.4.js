@@ -8,14 +8,14 @@
 ;===========================================
 */
 
-// names
+// Names
 function fullName(firstName, lastName){
   return firstName + lastName;
 }
 
-// current day
+// Current day
 function dateWriter(year, month, day){
-return year + month + day;
+return new Date(year + month + day);
 }
 
 // Format Number
@@ -36,7 +36,7 @@ return parseFloat("26.33");
 
 
 
-// output
+// Output
 console.log( 'Hello my name is ' + fullName("Douglas", " Jenkins"));
 console.log( 'Todays date is ' + dateWriter(2020, " June ", 03));
 console.log(formatNumber(15 , 5));
