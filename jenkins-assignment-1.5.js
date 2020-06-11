@@ -1,15 +1,15 @@
-/* ============================================ 
+/* ============================================
 ; Title: Hello World
 ; Author: Professor Krasso
 ; Date: 27 May 2020
 ; Modified By: Douglas Jenkins
-; Description: Variables and Values. 
+; Description: Variables and Values.
 ;=========================================== */
 
 // "hireDate" is Date object Declaration
-var hireDate = new Date(2020, 3, 24); 
-var hireDate1 = new Date(2020, 4, 07); 
-var hireDate2 = new Date(2020, 5, 13); 
+var hireDate = new Date(2020, 3, 24);
+var hireDate1 = new Date(2020, 4, 07);
+var hireDate2 = new Date(2020, 5, 13);
 
 //List of Variable Assignments
 var firstName = "Don";
@@ -28,13 +28,13 @@ var street2 = "4050 Bella Ln, Bakersfield CA";
 
 //Pay rate
 var num = 27.5076;
-var n = num.toFixed(0);
+var n = num.toFixed(1);
 
 var num = 30.7076;
-var p = num.toFixed(0);
+var p = num.toFixed(1);
 
 var num = 32.15;
-var m = num.toFixed(0);
+var m = num.toFixed(1);
 
 //Output of the Variable for Employee 1
 console.log(firstName + " " + lastName);
