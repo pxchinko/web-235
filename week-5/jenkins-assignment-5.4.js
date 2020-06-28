@@ -6,6 +6,11 @@
 ; Description: Using the map function to be used in the foreach function
 ;=========================================== */
 
+//Header
+var header = require('../jenkins-header');
+console.log(header.display("Douglas", "Jenkins", "Exercise 5.4"));
+console.log ('\n');
+
 //A List of Famous Composers for Video Games
 var famousCompo = [
 
