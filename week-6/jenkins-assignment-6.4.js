@@ -15,7 +15,7 @@ console.log ('\n');
 const ticket = {
   id: 105,
   name: 'John Doe',
-  dateCreated: new Date(2020, 06, 01),
+  dateCreated: new Date(),
   priority: 'Urgent',
     person :{
       id: 101,
