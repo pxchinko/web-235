@@ -1,5 +1,5 @@
 /* ============================================
-; Title: Assignment 6.1
+; Title: Assignment 6.2
 ; Author: Professor Krasso
 ; Date: 1 July 2020
 ; Modified By: Douglas Jenkins
