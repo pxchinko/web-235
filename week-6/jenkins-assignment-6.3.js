@@ -8,7 +8,7 @@
 
 //Header
 var header = require('../jenkins-header');
-console.log(header.display("Douglas", "Jenkins", "Exercise 5.4"));
+console.log(header.display("Douglas", "Jenkins", "Exercise 6.3"));
 console.log ('\n');
 
 // object with the customer information
