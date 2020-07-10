@@ -1,0 +1,69 @@
+<!---- ===========================================
+  	; Title: Assignment 7.3
+  	; Author: Professor Krasso
+  	; Date: 9 July 2020
+  	; Modified By: Douglas Jenkins
+  	; Description: javascript table
+  	;=========================================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 7.3</title>
+
+  <!-- you will need to the href to point to your root directories css file -->
+  <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+
+    <!---Post the table-->
+  <div id = "shopping"></div>
+
+  <!---Javascript below for the shopping div-->
+  <script>
+    document.getElementById('shopping').innerHTML = '<h1>Shopping List v.1</h1>' +
+    '<ol>' +
+      '<li>Bread</li>' +
+      '<li>Eggs</li>' +
+      '<li>Water</li>' +
+      '<li>Apples</li>' +
+      '<li>Soda</li>' +
+    '</ol>'
+  </script>
+
+<!---Table with styles added on-->
+<div id="list"></div>
+
+<!---Javascript below for the list div-->
+  <script>
+    document.getElementById('list').innerHTML = '<h1>Shopping List v.2</h1>' +
+    '<table>' +
+        '<tr>' +
+          '<th>ID</th>' +
+          '<th>Item</th>' +
+        '</tr>' +
+        '<tr>' +
+          '<td>1</td>' +
+          '<td>Bread</td>' +
+        '</tr>' +
+        '<tr>' +
+          '<td>2</td>' +
+          '<td>Eggs</td>' +
+        '</tr>' +
+        '<tr>' +
+          '<td>3</td>' +
+          '<td>Water</td>' +
+        '</tr>' +
+        '<tr>' +
+          '<td>4</td>' +
+          '<td>Apples</td>' +
+        '</tr>' +
+        '<tr>' +
+          '<td>5</td>' +
+          '<td>Soda</td>' +
+        '</tr>' +
+    '</table>'
+  </script>
+
+</body>
+</html>

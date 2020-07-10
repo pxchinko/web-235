@@ -1,0 +1,75 @@
+<!---- ===========================================
+  	; Title: Assignment 7.4
+  	; Author: Professor Krasso
+  	; Date: 9 July 2020
+  	; Modified By: Douglas Jenkins
+  	; Description: computer components table
+  	;=========================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 7.4</title>
+
+  <!-- you will need to the href to point to your root directories css file -->
+  <link rel="stylesheet" href="../site.css">
+
+</head>
+<body>
+
+  <!---list of computer components div-->
+  <div id="list"></div>
+
+  <!---Javascript below that creates the confirmation box-->
+  <script>
+    function myFunction(){
+      confirm('Are you sure?');
+    }
+  </script>
+
+  <!---Javascript below for the table that will be created-->
+  <script>
+    document.getElementById('list').innerHTML = '<h1>Computer Components</h1>' +
+    '<table>' +
+        '<tr>' +
+          '<th>ID</th>' +
+          '<th>Name</th>' +
+          '<th>Amount</th>' +
+          '<th>Functions</th>' +
+        '</tr>' +
+        '<tr>' +
+          '<td>1</td>' +
+          '<td>Laptop</td>' +
+          '<td>1,500.99</td>' +
+          '<td><a href ="javascript:alert(1);">Edit</a> | <a href ="javascript:myFunction();">Delete</a></td>' +
+        '</tr>' +
+        '<tr>' +
+          '<td>2</td>' +
+          '<td>Motherboard</td>' +
+          '<td>35.70</td>' +
+          '<td><a href ="javascript:alert(2);">Edit</a> | <a href ="javascript:myFunction();">Delete</a></td>' +
+        '</tr>' +
+        '<tr>' +
+          '<td>3</td>' +
+          '<td>Monitor</td>' +
+          '<td>174.99</td>' +
+          '<td><a href ="javascript:alert(3);">Edit</a> | <a href ="javascript:myFunction();">Delete</a></td>' +
+        '</tr>' +
+        '<tr>' +
+          '<td>4</td>' +
+          '<td>Mouse</td>' +
+          '<td>13.99</td>' +
+          '<td><a href ="javascript:alert(4);">Edit</a> | <a href ="javascript:myFunction();">Delete</a></td>' +
+        '</tr>' +
+        '<tr>' +
+          '<td>5</td>' +
+          '<td>Keyboard</td>' +
+          '<td>14.70</td>' +
+          '<td><a href ="javascript:alert(5);">Edit</a> | <a href ="javascript:myFunction();">Delete</a></td>' +
+        '</tr>' +
+    '</table>'
+  </script>
+
+</body>
+</html>
